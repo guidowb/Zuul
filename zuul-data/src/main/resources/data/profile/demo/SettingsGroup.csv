@@ -1,0 +1,10 @@
+id,settings_id,environment,key_name
+1,1,development,Default Key
+2,1,staging,Default Key
+3,1,production,Default Key
+4,2,development,Default Key
+5,2,staging,Default Key
+6,2,production,Default Key
+7,3,development,Default Key
+8,3,staging,Default Key
+9,3,production,Default Key

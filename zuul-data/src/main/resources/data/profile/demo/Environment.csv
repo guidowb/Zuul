@@ -1,0 +1,4 @@
+name,restricted,ordinal
+production,true,0
+staging,false,1
+development,false,2

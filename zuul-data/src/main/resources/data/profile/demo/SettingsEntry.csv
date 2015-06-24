@@ -1,0 +1,13 @@
+id,group_id,key_name,value,encrypted
+1,1,GOCONFIG_ZUUL_DB,h2:mem:zuul,false
+2,1,GOCONFIG_ZUUL_DOMAIN,zuul.guidowb.net,false
+3,1,GOCONFIG_ZUUL_USER,guidowb,false
+4,1,goconfig.demo.log.level,5,false
+5,1,goconfig.main.log.level,0,false
+6,1,goconfig.debug,true,false
+7,4,PYCONFIG_ZUUL_DB,h2:mem:zuul,false
+8,4,PYCONFIG_ZUUL_DOMAIN,zuul.guidowb.net,false
+9,4,PYCONFIG_ZUUL_USER,guidowb,false
+10,7,JAVACONFIG_ZUUL_DB,h2:mem:zuul,false
+11,7,JAVACONFIG_ZUUL_DOMAIN,zuul.guidowb.net,false
+12,7,JAVACONFIG_ZUUL_USER,guidowb,false

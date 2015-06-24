@@ -1,0 +1,7 @@
+---
+applications:
+- name: zuul-config-server
+  path: zuul-web/target/zuul-web-1.6-SNAPSHOT.war
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git#v2.4 # For Tomcat 7
+  env:
+    SPRING_PROFILES_ACTIVE: security-demo,demo
