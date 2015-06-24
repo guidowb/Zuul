@@ -1,13 +1,13 @@
 id,group_id,key_name,value,encrypted
-1,1,GOCONFIG_ZUUL_DB,h2:mem:zuul,false
-2,1,GOCONFIG_ZUUL_DOMAIN,zuul.guidowb.net,false
-3,1,GOCONFIG_ZUUL_USER,guidowb,false
-4,1,goconfig.demo.log.level,5,false
-5,1,goconfig.main.log.level,0,false
-6,1,goconfig.debug,true,false
-7,4,PYCONFIG_ZUUL_DB,h2:mem:zuul,false
-8,4,PYCONFIG_ZUUL_DOMAIN,zuul.guidowb.net,false
-9,4,PYCONFIG_ZUUL_USER,guidowb,false
-10,7,JAVACONFIG_ZUUL_DB,h2:mem:zuul,false
-11,7,JAVACONFIG_ZUUL_DOMAIN,zuul.guidowb.net,false
-12,7,JAVACONFIG_ZUUL_USER,guidowb,false
+1,1,ZUUL_PROPERTY_1,A property set,false
+2,1,ZUUL_PROPERTY_2,In my development space,false
+3,3,ZUUL_PROPERTY_2,In the production config,false
+4,1,ZUUL_PROPERTY_3,For my Golang app,false
+5,4,ZUUL_PROPERTY_1,A property set,false
+6,4,ZUUL_PROPERTY_2,In my development space,false
+7,6,ZUUL_PROPERTY_2,In the production config,false
+8,4,ZUUL_PROPERTY_3,For my Python app,false
+9,7,ZUUL_PROPERTY_1,A property set,false
+10,7,ZUUL_PROPERTY_2,In my development space,false
+11,9,ZUUL_PROPERTY_2,In the production config,false
+12,7,ZUUL_PROPERTY_3,For my Java app,false
